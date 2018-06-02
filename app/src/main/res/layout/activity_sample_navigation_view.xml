@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <!--ToolBar-->
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/navToolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorPrimary" />
+
+    <android.support.v4.widget.DrawerLayout
+        android:id="@+id/navDrawLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <!--内容-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="@string/app_name"
+                android:textSize="18sp" />
+        </LinearLayout>
+        <!--菜单-->
+        <android.support.design.widget.NavigationView
+            android:id="@+id/navigationView"
+            android:layout_width="200dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="start"
+            app:headerLayout="@layout/head_navigation_layout"
+            app:itemIconTint="@color/colorPrimary"
+            app:itemTextColor="@color/select_color_navigation"
+            app:menu="@menu/menu_navigation_view" />
+    </android.support.v4.widget.DrawerLayout>
+
+</LinearLayout>
+
+

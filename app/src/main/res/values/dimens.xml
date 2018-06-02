@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!--修改FloatingActionButton的大小-->
+    <dimen name="design_fab_size_mini" tools:override="true">40dp</dimen>
+    <dimen name="design_fab_size_normal" tools:override="true">56dp</dimen>
+    <!--修改NavigationView菜单图标与文字之间的间距-->
+    <dimen name="design_navigation_icon_padding" tools:override="true">10dp</dimen>
+
+</resources>

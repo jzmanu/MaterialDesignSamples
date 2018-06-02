@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:id="@+id/groupMenu1">
+        <item
+            android:id="@+id/menu1"
+            android:title="个人中心"
+            android:icon="@drawable/ic_person_outline_black_24dp" />
+        <item
+            android:id="@+id/menu2"
+            android:title="学习计划"
+            android:icon="@drawable/ic_access_alarm_black_24dp"/>
+        <item
+            android:id="@+id/menu3"
+            android:title="云文件"
+            android:icon="@drawable/ic_cloud_queue_black_24dp"/>
+    </group>
+
+    <group android:id="@+id/groupMenu2">
+        <item
+            android:id="@+id/menu4"
+            android:title="便签"
+            android:icon="@drawable/ic_bookmark_border_black_24dp"/>
+        <item
+            android:id="@+id/menu5"
+            android:title="咖啡"
+            android:icon="@drawable/ic_queue_music_black_24dp"/>
+    </group>
+
+
+
+</menu>
