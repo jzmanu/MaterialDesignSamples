@@ -46,4 +46,14 @@
         android:text="NavigationView"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/btnCollapsingToolbarLayout" />
+
+    <Button
+        android:id="@+id/btnBottomNavigationView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="8dp"
+        android:text="BottomNavigationView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnNavigationView" />
 </android.support.constraint.ConstraintLayout>

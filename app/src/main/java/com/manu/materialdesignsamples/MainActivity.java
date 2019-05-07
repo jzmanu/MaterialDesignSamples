@@ -6,6 +6,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 
+import com.manu.materialdesignsamples.samples.SampleBottomNavigationViewActivity;
 import com.manu.materialdesignsamples.samples.SampleCollapsingToolbarLayoutActivity;
 import com.manu.materialdesignsamples.samples.SampleCoordinatorAppBarActivity;
 import com.manu.materialdesignsamples.samples.SampleCoordinatorFloatActivity;
@@ -25,6 +26,8 @@ public class MainActivity extends AppCompatActivity {
     Button btnCollapsingToolbarLayout;
     @BindView(R.id.btnNavigationView)
     Button btnNavigationView;
+    @BindView(R.id.btnBottomNavigationView)
+    Button btnBottomNavigationView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -33,7 +36,8 @@ public class MainActivity extends AppCompatActivity {
         ButterKnife.bind(this);
     }
 
-    @OnClick({R.id.btnCoordinatorLayout, R.id.btnAppBar, R.id.btnCollapsingToolbarLayout,R.id.btnNavigationView})
+    @OnClick({R.id.btnCoordinatorLayout, R.id.btnAppBar, R.id.btnCollapsingToolbarLayout,
+            R.id.btnNavigationView,R.id.btnBottomNavigationView})
     public void onViewClicked(View view) {
         switch (view.getId()) {
             case R.id.btnCoordinatorLayout:
@@ -47,6 +51,9 @@ public class MainActivity extends AppCompatActivity {
                 break;
             case R.id.btnNavigationView:
                 goToActivity(SampleNavigationViewActivity.class);
+                break;
+            case R.id.btnBottomNavigationView:
+                goToActivity(SampleBottomNavigationViewActivity.class);
                 break;
         }
     }

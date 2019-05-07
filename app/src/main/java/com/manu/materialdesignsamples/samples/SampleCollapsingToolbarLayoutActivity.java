@@ -16,6 +16,7 @@ import butterknife.BindView;
 import butterknife.ButterKnife;
 
 /**
+ * CollapsingToolbarLayout
  * Created by jzman
  * Powered by 2018/5/28 0019.
  */

@@ -23,8 +23,12 @@
         <activity
             android:name=".samples.SampleCollapsingToolbarLayoutActivity"
             android:theme="@style/AppTheme.Toolbar" />
-        <activity android:name=".samples.SampleNavigationViewActivity"
-            android:theme="@style/AppTheme.Toolbar"/>
+        <activity
+            android:name=".samples.SampleNavigationViewActivity"
+            android:theme="@style/AppTheme.Toolbar" />
+        <activity
+            android:name=".samples.SampleBottomNavigationViewActivity"
+            android:label="@string/title_activity_sample_bottom_navigation_view"></activity>
     </application>
 
 </manifest>

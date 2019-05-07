@@ -2,4 +2,10 @@
     <string name="app_name">MaterialDesignSamples</string>
     <string name="strOpen">开启</string>
     <string name="strClose">关闭</string>
+    <string name="title_activity_sample_bottom_navigation_view">SampleBottomNavigationViewActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_note">Note</string>
+    <string name="title_mine">Mine</string>
 </resources>
